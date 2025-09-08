@@ -10,7 +10,7 @@ services:
     image: krishna553/paytmtrian:latest
     ports:
       - "82:80"
-    depoly:
+    deploy:
       replicas: 3
   dth:
     image: krishna553/paytmdth:latest
@@ -22,3 +22,6 @@ services:
     image: krishna553/paytmrecharge:latest
     ports:
       - "84:80"
+    deploy: 
+      replicas: 3
+      
