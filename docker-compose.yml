@@ -6,8 +6,8 @@ services:
       - "81:80"
     deploy:
       replicas: 3 
-  train:
-    image: krishna553/paytmtrain:latest
+  trian:
+    image: krishna553/paytmtrian:latest
     ports:
       - "82:80"
     depoly:
